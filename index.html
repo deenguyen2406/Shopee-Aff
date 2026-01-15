@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Shopee Affiliate Hub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="theme-color" content="#ee4d2d">
+</head>
+
+<body>
+
+    <header>
+        <h1>Shopee Voucher</h1>
+        <p>Săn Deal Hot - Nhận Mã Giảm Giá Ngay!</p>
+    </header>
+
+    <!-- DANH MỤC 1: LƯU MÃ GIẢM GIÁ -->
+    <div class="card">
+        <div class="card-title">🔥 Lưu Mã Giảm Giá</div>
+        <button class="btn" onclick="handleDeepLink('voucher_latest')">Lưu Voucher Mới Nhất</button>
+        <button class="btn" onclick="handleDeepLink('voucher_vip')">Lưu Voucher Shopee VIP</button>
+    </div>
+
+    <!-- DANH MỤC 2: DEAL NGON -->
+    <div class="card">
+        <div class="card-title">🎁 Deal Ngon Giá Sốc</div>
+        <a href="deal_iphone.html" class="btn btn-secondary">Deal iPhone 15 Promax</a>
+        <a href="deal_ipad.html" class="btn btn-secondary">Deal iPad Air 5</a>
+    </div>
+
+    <!-- DANH MỤC 3: CHUYỂN ĐỔI LINK -->
+    <div class="card">
+        <div class="card-title">🔗 Tạo Link Mua Hàng</div>
+        <div class="input-group">
+            <input type="text" id="shopee-link-input" placeholder="Dán link Shopee gốc vào đây...">
+        </div>
+        <button class="btn" onclick="convertAndRedirect()">Tạo & Mở Link Ngay</button>
+        <p style="font-size: 0.8rem; color: #999; margin-top: 12px; text-align: center;">
+            Hệ thống tự động mở App Shopee nếu có.
+        </p>
+    </div>
+
+    <footer>
+        <p>© 2026 Shopee Affiliate Hub by You</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

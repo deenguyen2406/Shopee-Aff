@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Deal iPhone - Shopee</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <a href="index.html" class="back-link">&larr; Quay lại</a>
+
+    <div class="card">
+        <div class="card-title" style="color: var(--primary-color)">🔥 Deal Siêu Hot</div>
+        <div id="content-iphone" class="deal-content">
+            <p style="text-align: center; padding: 20px; color: #999;">Đang tải thông tin...</p>
+        </div>
+        <button class="btn" onclick="handleDeepLink('deal_iphone')">Mua Ngay (Mở App)</button>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadContent('deal_iphone', 'content-iphone');
+        });
+    </script>
+</body>
+
+</html>
