@@ -1,0 +1,27 @@
+{
+  "voucher_latest": {
+    "web": "https://shopee.vn/m/ma-giam-gia",
+    "android": "intent://shopee.vn/m/ma-giam-gia#Intent;scheme=https;package=com.shopee.vn;end",
+    "ios": "shopee://shopee.vn/m/ma-giam-gia"
+  },
+  "voucher_vip": {
+    "web": "https://shopee.vn/m/khung-gio-san-sale",
+    "android": "intent://shopee.vn/m/khung-gio-san-sale#Intent;scheme=https;package=com.shopee.vn;end",
+    "ios": "shopee://shopee.vn/m/khung-gio-san-sale"
+  },
+  "deal_iphone": {
+    "web": "https://shopee.vn/search?keyword=iphone",
+    "android": "intent://shopee.vn/search?keyword=iphone#Intent;scheme=https;package=com.shopee.vn;end",
+    "ios": "shopee://shopee.vn/search?keyword=iphone"
+  },
+  "deal_ipad": {
+    "web": "https://shopee.vn/search?keyword=ipad",
+    "android": "intent://shopee.vn/search?keyword=ipad#Intent;scheme=https;package=com.shopee.vn;end",
+    "ios": "shopee://shopee.vn/search?keyword=ipad"
+  },
+  "convert_redirect": {
+    "web": "https://shopee.vn/",
+    "android": "intent://shopee.vn/#Intent;scheme=https;package=com.shopee.vn;end",
+    "ios": "shopee://shopee.vn/"
+  }
+}

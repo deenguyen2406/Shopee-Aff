@@ -1,0 +1,7 @@
+<h2>Săn ngay iPhone giá sốc!</h2>
+<p>iPhone 15 Pro Max đang có giá cực tốt trên Shopee. Đừng bỏ lỡ cơ hội sở hữu siêu phẩm này với hàng ngàn voucher giảm giá.</p>
+<ul>
+    <li>Màn hình Super Retina XDR</li>
+    <li>Chip A17 Pro mạnh mẽ</li>
+    <li>Thiết kế Titan sang trọng</li>
+</ul>
